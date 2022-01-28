@@ -3,7 +3,7 @@
  * faut implementer afin de pouvoir construire un programme permettant 
  * a la decryption du chiffrement de Cesar.
  *
- * @author Xin Ran Fang
+ * @author Fang, Xin Ran
  * @version 2021-11-14
  */
 

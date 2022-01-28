@@ -1,0 +1,32 @@
+before_script:
+    - apt-get update -qq
+    - git clone https://github.com/bats-core/bats-core.git /tmp/bats
+    - mkdir -p /tmp/local
+    - bash /tmp/bats/install.sh /tmp/local
+    - export PATH=$PATH:/tmp/local/bin
+
+default:
+  image: ruby:2.7.2
+
+stages:
+  - build
+  - test
+  - cleanup
+
+build_job:
+  stage: build
+  script:
+    - echo "build"
+    - make
+
+test_job:
+  stage: test
+  script:
+    - echo "test"
+    - make test
+
+cleanup_job:
+  stage: cleanup
+  script:
+    - echo "cleanup"
+    - make clean

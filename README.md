@@ -29,7 +29,7 @@ Le chiffrement de César est une méthode d'encryption par décalage de lettre. 
 
 ## Auteur
 
-Xin Ran Fang 
+Fang, Xin Ran
 
   
 ## Fonctionnement

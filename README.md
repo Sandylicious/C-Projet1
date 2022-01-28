@@ -26,16 +26,10 @@ Le chiffrement de César est une méthode d'encryption par décalage de lettre. 
 * ```c``` devient ```z```
 * ```&``` devient ```&```
 
-**Travail pratique Automne 2021**
-
-* Cours: INF3135 - Construction et maintenance de logiciels
-* Enseignant: Serge Dogny
-* Université: Université du Québec à Montréal (UQAM)
-
 
 ## Auteur
 
-Xin Ran Fang (FANX15589403)
+Xin Ran Fang 
 
   
 ## Fonctionnement

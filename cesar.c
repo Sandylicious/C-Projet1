@@ -12,7 +12,7 @@
  * De ce fait, apres le dechiffrement, A deviendra X, B deviendra Y, 
  * C deviendra Z, D deviendra A, E deviendra B, F deviendra C, etc.
  *
- * @author Xin Ran Fang
+ * @author Fang, Xin Ran
  * @version 2021-11-14
  */
 
